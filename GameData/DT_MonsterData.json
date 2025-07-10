@@ -1,0 +1,74 @@
+[
+	{
+		"Name": "Bear",
+		"StatData":
+		{
+			"MaxHP": 100,
+			"AttackDamage": 20
+		},
+		"MeleeAttacks": [
+			{
+				"Montage": "/Script/Engine.AnimMontage'/Game/WantedProject/Animation/AM_MonsterAttack.AM_MonsterAttack'",
+				"DamageMultiplier": 1,
+				"AttackRange": 0,
+				"AttackAngle": 0
+			}
+		],
+		"RangedAttacks": [],
+		"SummonSkill":
+		{
+			"Montage": "None",
+			"MinionClassToSummon": "None",
+			"MinionCount": 0
+		},
+		"DeadMontage": "/Script/Engine.AnimMontage'/Game/WantedProject/Animation/AM_Dead.AM_Dead'",
+		"AnimBlueprint": "/Script/Engine.AnimBlueprintGeneratedClass'/Game/WantedProject/Animation/ABP_WTMonsterBear.ABP_WTMonsterBear_C'",
+		"MainBehaviorTree": "/Script/AIModule.BehaviorTree'/Game/WantedProject/AI/BT_WTMonster.BT_WTMonster'",
+		"CombatBehaviorTree": "None"
+	},
+	{
+		"Name": "Necromancer",
+		"StatData":
+		{
+			"MaxHP": 200,
+			"AttackDamage": 50
+		},
+		"MeleeAttacks": [
+			{
+				"Montage": "/Script/Engine.AnimMontage'/Game/WantedProject/Animation/Necromancer/AM_NecroAttack1.AM_NecroAttack1'",
+				"DamageMultiplier": 1,
+				"AttackRange": 200,
+				"AttackAngle": 80
+			},
+			{
+				"Montage": "/Script/Engine.AnimMontage'/Game/WantedProject/Animation/Necromancer/AM_NecroAttack2.AM_NecroAttack2'",
+				"DamageMultiplier": 1,
+				"AttackRange": 200,
+				"AttackAngle": 80
+			},
+			{
+				"Montage": "/Script/Engine.AnimMontage'/Game/WantedProject/Animation/Necromancer/AM_NecroAttack3.AM_NecroAttack3'",
+				"DamageMultiplier": 1.5,
+				"AttackRange": 200,
+				"AttackAngle": 80
+			}
+		],
+		"RangedAttacks": [
+			{
+				"Montage": "/Script/Engine.AnimMontage'/Game/WantedProject/Animation/Necromancer/AM_NecroAttack4.AM_NecroAttack4'",
+				"DamageMultiplier": 1,
+				"ProjectileClass": "/Script/CoreUObject.Class'/Script/WantedProject.WTArrow'"
+			}
+		],
+		"SummonSkill":
+		{
+			"Montage": "/Script/Engine.AnimMontage'/Game/WantedProject/Animation/Necromancer/AM_NecroSummon.AM_NecroSummon'",
+			"MinionClassToSummon": "/Script/Engine.BlueprintGeneratedClass'/Game/WantedProject/BluePrint/BP_WTMonsterBear.BP_WTMonsterBear_C'",
+			"MinionCount": 5
+		},
+		"DeadMontage": "/Script/Engine.AnimMontage'/Game/WantedProject/Animation/Necromancer/AM_NecroDead.AM_NecroDead'",
+		"AnimBlueprint": "/Script/Engine.AnimBlueprintGeneratedClass'/Game/WantedProject/Animation/Necromancer/ABP_WTNecromancer.ABP_WTNecromancer_C'",
+		"MainBehaviorTree": "/Script/AIModule.BehaviorTree'/Game/WantedProject/AI/BT_WTNecromancer.BT_WTNecromancer'",
+		"CombatBehaviorTree": "/Script/AIModule.BehaviorTree'/Game/WantedProject/AI/BT_WTNecroCombatLogic.BT_WTNecroCombatLogic'"
+	}
+]

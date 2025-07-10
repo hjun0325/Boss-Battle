@@ -1,0 +1,22 @@
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.VC.db
+*.VC.VC.opendb
+
+# Unreal Engine - 임시 파일 및 빌드 결과물
+# 이 4개의 폴더를 무시하는 것이 가장 중요합니다.
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# 기타
+Build/
+*.log
+*.pdb
