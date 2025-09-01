@@ -3,6 +3,7 @@
 ## 📖 프로젝트 소개
 
 * **Archer vs Necromancer**는 여러가지 공격 패턴을 가진 네크로맨서와 대결하는 Topdown 액션 게임입니다.
+* 시연 영상 : https://youtu.be/FJlStxUdgeg
 
 ## ✨ 주요 기능
 
